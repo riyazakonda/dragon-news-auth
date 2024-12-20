@@ -8,7 +8,7 @@ const CategoryNews = () => {
     <div>
       <h2 className="font-semibold mb-3">Dragon News Home</h2>
       <p className="text-gray-400 text-sm">
-        {news.length} News Found On This Category
+        News Found On This Category :{news.length}
       </p>
       <div>
         {news.map((singleNews) => (
